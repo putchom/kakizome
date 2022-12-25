@@ -46,4 +46,17 @@ canvas {
   background-color: white;
   background-image: url("./assets/paper.jpg");
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.6));
+  position: relative;
+}
+
+main::after {
+  content: "";
+  aspect-ratio: 1000 / 80;
+  background-image: url("assets/bunchin.png");
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  position: absolute;
+  top: 20px;
 }
