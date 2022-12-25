@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  background-image: url("./assets/felt.jpg");
+  background-size: 240px auto;
+  margin: 0;
+  font-family: "Yuji Syuku", serif;
+  color: white;
+  user-select: none;
+}
+
+.title {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.katakana {
+  letter-spacing: -0.1em;
+}
+
+.credit {
+  font-size: 0.75rem;
+  letter-spacing: -0.1em;
+}
+
+.credit a {
+  color: white;
+}
+
+.header {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  background-color: white;
+  background-image: url("./assets/paper.jpg");
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.6));
+}
