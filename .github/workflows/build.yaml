@@ -25,6 +25,12 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Create CNAME
+        uses: finnp/create-file-action@master
+        env:
+          FILE_NAME: "dist/CNAME"
+          FILE_DATA: "kakizome.online"
+
       - name: Deploy
         uses: s0/git-publish-subdir-action@master
         env:
