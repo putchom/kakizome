@@ -1,3 +1,7 @@
+html, body {
+  overflow: hidden;
+}
+
 body {
   background-color: black;
   background-image: url("./assets/felt.jpg");
@@ -40,6 +44,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 32px;
 }
 
 canvas {
@@ -53,10 +58,10 @@ main::after {
   content: "";
   aspect-ratio: 1000 / 80;
   background-image: url("assets/bunchin.png");
-  width: 400px;
+  width: 300px;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
   position: absolute;
-  top: 20px;
+  top: 52px;
 }

@@ -2,10 +2,10 @@ import p5 from "p5";
 
 const sketch = (p: p5) => {
   p.setup = () => {
-    p.createCanvas(480, 700);
+    p.createCanvas(312, 455);
   };
 
-  let brushSize = 20;
+  let brushSize = 15;
   let f;
   let spring = 0.4;
   let friction = 0.45;
